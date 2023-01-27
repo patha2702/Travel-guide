@@ -1,0 +1,145 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body,* {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    padding: 2rem;
+    background-image: url("https://images.thrillophilia.com/image/upload/s--Q8Bp7vX5--/c_fill,g_center,h_642,q_auto,w_1280/f_auto,fl_strip_profile/v1/images/photos/000/146/417/original/1551093975_places-to-visit-in-kerala-varkala.jpg.jpg");
+    background-size: contain;
+    background-repeat: none;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero h1{
+    margin: 0 auto 0 auto;
+    width: 14rem;
+    color: #fff;
+    background: #1D3557;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.hero h3{
+    margin: 1.2rem auto 0 auto;
+    width: 25rem;
+    background: #457B9D;
+    border-radius: 10px;
+} 
+
+.main {
+    background: #F1FAEE;
+    padding: 2rem;
+}
+.activites {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+.kerala__activity-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.activites section{
+    width: 12rem;
+    height: 12rem;
+    margin: 0.7rem;
+    padding: 0.2rem;
+}
+
+.activites h4 {
+    width: 162px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #1D3557;
+}
+
+.activites section p{
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 0.5rem; 
+    color: #1D3557;
+}
+
+.card {
+    padding: 1rem;
+    width: 32rem;
+    height: 18rem;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 5rem auto;
+    display: flex;
+}
+
+.cardImage{
+    width: 14rem;
+    height: 15rem;
+    margin: 1rem;
+}
+
+.card-info {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-info h3 {
+    height: 32px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #1D3557;
+
+}
+
+.card-info p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #1D3557;
+}
+
+.card-info span {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #1D3557
+}
+
+
+
+
